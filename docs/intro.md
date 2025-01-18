@@ -13,7 +13,7 @@ The club was envisioned by a cadet in 2019 when the Academy was at the height of
 Academy’s space program. He originally shared his idea with the head of the Astronautics Department. Today, the team represents the Academy at a competitive collegiate level. 
 
 ```{image} ./pictures/BlueHorizons_ClubAccomplishments_Image.jpg  
-:width: 1000 
+:width: 700 
 :align: center  
 ``` 
 
@@ -21,6 +21,7 @@ The team has successfully competed in the NASA USLI (University Student Launch I
 
 ```{image} ./pictures/payload.jpg  
 :width: 500 
+:height: 200
 :align: center  
 ``` 
 
