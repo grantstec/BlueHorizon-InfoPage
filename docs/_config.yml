@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: BlueHorizon
-author: The Jupyter Book Community
+author: BlueHorizon Web Team
 logo: BHlogolarge.png
 
 # Force re-execution of notebooks on each build.
@@ -19,14 +19,17 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
-# Information about where the book exists on the web
-repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
-
+#Add a favicon and buttons to the HTML output
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  favicon: BHlogosmall.png
   use_issues_button: true
   use_repository_button: true
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/grantstec/BlueHorizon-InfoPage  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
