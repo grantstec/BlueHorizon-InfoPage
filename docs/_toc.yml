@@ -7,6 +7,6 @@ parts:
   - caption: "Team Info"
     chapters:
     - file: schedule
-    - file: markdown
-    - file: markdown-notebooks
+    - file: 
+    - file: 
 
