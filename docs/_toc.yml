@@ -7,6 +7,5 @@ parts:
   - caption: "Team Info"
     chapters:
     - file: schedule
-    - file: 
-    - file: 
+
 
