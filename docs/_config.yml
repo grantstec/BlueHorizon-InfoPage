@@ -33,10 +33,6 @@ repository:
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
-html_theme_options:
-  primary_color: "#004080"  # Change this to your preferred primary color
-  secondary_color: "#008080"  # Change this to your preferred secondary color
-  accent_color: "#FFD700"  # Change this to your preferred accent color
-  font_size: 14px  # Change this to your preferred font size
+
   
 
