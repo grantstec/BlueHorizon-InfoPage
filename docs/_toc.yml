@@ -18,7 +18,6 @@ parts:
   - caption: "Resources"
     chapters:
     - file: fusion 360 setup
-    - file: github
     - file: website editing
   
 
