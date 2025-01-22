@@ -1,5 +1,11 @@
 # BlueHorizon Rocketry
 
+```{image} ./pictures/BlueHorizonteampic.jpg  
+:width: 5760  
+:align: center  
+```  
+<br>
+
 ## About Us 
 
 BlueHorizon is USAFA's collegiate rocketry club that competes in national collegiate rocketry competitions. The club also is a breeding ground for engineering creativity with a research division that helps connect cadets with faculty and work on a variety of engineering-based research topics.
