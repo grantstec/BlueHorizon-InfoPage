@@ -14,7 +14,7 @@ parts:
     - file: support
   - caption: "Past Years"
     chapters:
-    - file: 2024 USLI
+    - file: USLI
   - caption: "Resources"
     chapters:
     - file: fusion 360 setup
