@@ -7,6 +7,18 @@ parts:
   - caption: "Team Info"
     chapters:
     - file: schedule
-    - file: markdown
-    - file: markdown-notebooks
+  - caption: "Subteams"
+    chapters:
+    - file: research
+    - file: competition
+    - file: support
+  - caption: "Past Years"
+    chapters:
+    - file: 2024 USLI
+  - caption: "Resources"
+    chapters:
+    - file: fusion 360 setup
+    - file: website editing
+  
+
 
