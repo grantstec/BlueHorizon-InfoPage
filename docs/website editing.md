@@ -15,6 +15,10 @@ GitHub is where the website source code is hosted. GitHub was developed to make 
 
 Navigate to http://github.com and **sign up using your afacademy email**. This will allow you to get GitHub pro for free which provides some nice AI assisted code benefits. If you want to activate GitHub pro go into your account and sign up for it. Follow all instructions to create your account, once done send **Grant Stec** a teams message and he will invite you to the BlueHorizon github organization. 
 
+```{hint} 
+To get GitHub Pro: https://github.com/education/students
+```
+
 Within the BlueHorizon github you should be able to see the different repositories (folders for different projects) the one titled **"BlueHorizon-InfoPage"** is the website repo (repository). You should see something like this. You can also find it [here](https://github.com/USAFA-Blue-Horizon/BlueHorizon-InfoPage)
 
 ```{image} ./pictures/GitHubRepo.png   
@@ -65,6 +69,11 @@ You will now install extensions to assist the development process. Click the ext
 If you had signed up for github and gotten github pro it would be useful now to also download the **GitHub Copilot and GitHub Copilot Chat extension along with the GitHub Pull Requests** extension. All of the website files are markdown based so you should also get the **Markdown All in One extension by Yu Zhang** and **Markdown Preview Enhanced by Yiyi Wang** to quickly see the markdown pages in VSC. 
 
 If any extensions ask for setup or gives any setup instructions after installation don't bother just continue. 
+
+```{note} 
+If you find any cool extensions on your own please share 🤗
+```
+
 #### GitHub Sign In
 
 Now we will sign into GitHub on VScode so we can easy push pull and commit to our respective branches on GitHub. To Login click the account looking icon in the bottom 
@@ -103,6 +112,13 @@ Make sure the command line in the terminal windows looks like the folder locatio
 Once the git clone has finished you should now see your folder populated with all the same files from github. Now you can begin editing and or adding the files. Familiarize yourself with the file structure snd files like intro.md, _config.yml and _toc.yml to learn more about how this file structure works and some niche formatting as seen in intro.md you can visit [Built with Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 
 ### Committing and Pushing
+
+#### Branch Selection
+
+```{warning} 
+Do not select "main" branch at any time!
+```
+
 Once you are ready to commit and push a new change there are a few things we must make sure as to not destroy the live functioning website running from GitHub. Navigate to the source control tab on the left hand bar above the extensions and above the debugger as seen in the photo. 
 
 ```{image} ./pictures/Source_Control.png  
@@ -130,19 +146,60 @@ Select your corresponding branch, do the same process of clicking on the branch 
 :height: 200
 :align: center  
 ```
-Now you should be all set to begin editing the files and once you have made good progress on some edits and or are done for the day it is always a good thing to push to GitHub. So go back to the Source Control Tab (Branch looking thing), often below the magnifying glass on the left side bar. In this tab the **"Commit"** button should now be blue with the files you have changes listed below in the "Changes in the Message block type a simple message that relates to what you changed. For example if I added an image called rocket I could say "added rocket image". 
+Now you should be all set to begin editing the files and once you have made good progress on some edits and or are done for the day it is always a good thing to push to GitHub. 
+
+#### Committing
+
+Once you have made edits go back to the Source Control Tab (Branch looking thing), often below the magnifying glass on the left side bar. In this tab the **"Commit"** button should now be blue with the files you have changes listed below in the "Changes in the Message block type a simple message that relates to what you changed. For example if I added an image called rocket I could say "added rocket image". 
 
 ```{image} ./pictures/Commit.png  
 :height: 200
 :align: center  
 ```
+#### Sync Changes
+
 After you hit commit the button should now change to say **"Sync Change"** Click this button to sync the changes you made. This just double checks that your files are up to date with what you just pushed. If a windows shows up asking **"This action will push and pull commits from and to (Your branch)"**. Just hit **Okay**.
 
 ```{image} ./pictures/sync.png  
 :height: 200
 :align: center  
 ```
+You will want to repeat this process whenever you make any changes.
+ 
+
+```{note} 
+Check your branch has been committed by going back to the repository https://github.com/USAFA-Blue-Horizon/BlueHorizon-InfoPage/branches. In your branch's row there should be a column titled "Updated" confirm the timestamp looks reasonable based on when you last committed and synced.
+
+```
+
+### Quick Tips
+
+#### Spell Checker Extension
+
+As you may recall we installed a Spell Checker extension. Whenever you are editing a Markdown file and come across a misspelling a word it will be underlined with a blue squiggly. You can correct these in two ways. The slow way is right click on the word and then go to **"Spelling Suggestions"**, a tab on the top should open with suggested words. The quick way is open the terminal at the bottom and go to the tab called **"SPELL CHECKER"** find a word and double click and you will be directed to it and given options for suggested words and select which ever is correct. You can also add niche words like names to the dictionary so they are ignored by double clicking the word and then click the little diction on the right side of the column. 
+
+```{image} ./pictures/spellchecker.png  
+:height: 200
+:align: center  
+```
+#### Emojis
+You can find easy to copy emojis [here](https://getemoji.com/) 
+
+#### Tables
+Table generator [here](https://www.tablesgenerator.com/markdown_tables).
+
+#### Example Repositories/Websites
+
+Use these examples website to find neat features you may like/want to add and then find them in the code of the repository. You can also learn more about jupyterbook websites as whole from the main documentation website: https://jupyterbook.org/en/stable/intro.html.
+
+##### ECE 281 Website
+Website: https://usafa-ece.github.io/ece281-book/intro.html
+GitHub: https://github.com/usafa-ece/ece281-book
+
+##### ECE 387 Website 
+
+Website: https://stanbaek.github.io/ece387/intro.html
+GitHub: https://github.com/stanbaek/ece387
 
 
 
-Some other helpful things are the Spell Checker, as seen in the terminal window you can find a word and double click and be directed to it and given options for suggested words and select which ever is correct. You can also add niche words like names to the dictionary so they are ignored by double clicking the word and then click the little diction on the right side of the column. You can find easy to copy emojis [here](https://emojikitchen.dev/) and a nice table generator [here](https://www.tablesgenerator.com/markdown_tables).
