@@ -172,6 +172,10 @@ Check your branch has been committed by going back to the repository https://git
 
 ```
 
+### Changing Main Page
+
+Once you commit ahead of main branch and push to your own branch I will get a message that the branch has been changed and I can move it to main if you are ready for your page to be on home page. Message Grant Stec on Teams.  
+
 ### Quick Tips
 
 #### Spell Checker Extension
@@ -182,6 +186,15 @@ As you may recall we installed a Spell Checker extension. Whenever you are editi
 :height: 200
 :align: center  
 ```
+
+#### Markdown Page Viewier
+
+```{warning} 
+You must have **Markdown All in One** Extension installed
+```
+
+Use "Ctrl" + "Shift" + "V" to get another tab to open in VS Code that shows a preview of the Markdown page. 
+
 #### Emojis
 You can find easy to copy emojis [here](https://getemoji.com/) 
 
