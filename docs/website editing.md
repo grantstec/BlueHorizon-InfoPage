@@ -102,7 +102,7 @@ Make sure the command line in the terminal windows looks like the folder locatio
 
 Once the git clone has finished you should now see your folder populated with all the same files from github. Now you can begin editing and or adding the files. Familiarize yourself with the file structure snd files like intro.md, _config.yml and _toc.yml to learn more about how this file structure works and some niche formatting as seen in intro.md you can visit [Built with Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
 
-### Commiting and Pushing
+### Committing and Pushing
 Once you are ready to commit and push a new change there are a few things we must make sure as to not destroy the live functioning website running from GitHub. Navigate to the source control tab on the left hand bar above the extensions and above the debugger as seen in the photo. 
 
 ```{image} ./pictures/Source_Control.png  
@@ -136,7 +136,7 @@ Now you should be all set to begin editing the files and once you have made good
 :height: 200
 :align: center  
 ```
-After you hit commit the button should now change to say **"Sync Change"** Click this button to sync the changes you made. This just double checks that your files are up to date with what you just pushed. 
+After you hit commit the button should now change to say **"Sync Change"** Click this button to sync the changes you made. This just double checks that your files are up to date with what you just pushed. If a windows shows up asking 
 
 
 Some other helpful things are the Spell Checker, as seen in the terminal window you can find a word and double click and be directed to it and given options for suggested words and select which ever is correct. You can also add niche words like names to the dictionary so they are ignored by double clicking the word and then click the little diction on the right side of the column. You can find easy to copy emojis [here](https://emojikitchen.dev/) and a nice table generator [here](https://www.tablesgenerator.com/markdown_tables).
