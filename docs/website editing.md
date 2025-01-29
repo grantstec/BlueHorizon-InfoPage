@@ -130,13 +130,13 @@ Select your corresponding branch, do the same process of clicking on the branch 
 :height: 200
 :align: center  
 ```
-Now you should be all set to begin editing the files and once you have made good progress on some edits and or are done for the day it is always a good thing to push to GitHub. So go back to the Source Control Tab (Branch looking thing), often below the magnifying glass on the left side bar. In this tab the Commit button should now be blue with the files you have changes listed below in the "Changes" in the Message block type a simple message that relates to what you changed. For example if I added an image called rocket I could say "added rocket image". 
+Now you should be all set to begin editing the files and once you have made good progress on some edits and or are done for the day it is always a good thing to push to GitHub. So go back to the Source Control Tab (Branch looking thing), often below the magnifying glass on the left side bar. In this tab the **"Commit"** button should now be blue with the files you have changes listed below in the "Changes in the Message block type a simple message that relates to what you changed. For example if I added an image called rocket I could say "added rocket image". 
 
 ```{image} ./pictures/Commit.png  
 :height: 200
 :align: center  
 ```
-
+After you hit commit the button should now change to say **"Sync Change"** Click this button to sync the changes you made. This just double checks that your files are up to date with what you just pushed. 
 
 
 Some other helpful things are the Spell Checker, as seen in the terminal window you can find a word and double click and be directed to it and given options for suggested words and select which ever is correct. You can also add niche words like names to the dictionary so they are ignored by double clicking the word and then click the little diction on the right side of the column. You can find easy to copy emojis [here](https://emojikitchen.dev/) and a nice table generator [here](https://www.tablesgenerator.com/markdown_tables).
