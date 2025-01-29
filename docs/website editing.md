@@ -136,7 +136,13 @@ Now you should be all set to begin editing the files and once you have made good
 :height: 200
 :align: center  
 ```
-After you hit commit the button should now change to say **"Sync Change"** Click this button to sync the changes you made. This just double checks that your files are up to date with what you just pushed. If a windows shows up asking 
+After you hit commit the button should now change to say **"Sync Change"** Click this button to sync the changes you made. This just double checks that your files are up to date with what you just pushed. If a windows shows up asking **"This action will push and pull commits from and to (Your branch)"**. Just hit **Okay**.
+
+```{image} ./pictures/sync.png  
+:height: 200
+:align: center  
+```
+
 
 
 Some other helpful things are the Spell Checker, as seen in the terminal window you can find a word and double click and be directed to it and given options for suggested words and select which ever is correct. You can also add niche words like names to the dictionary so they are ignored by double clicking the word and then click the little diction on the right side of the column. You can find easy to copy emojis [here](https://emojikitchen.dev/) and a nice table generator [here](https://www.tablesgenerator.com/markdown_tables).
