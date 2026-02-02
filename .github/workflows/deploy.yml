@@ -1,0 +1,61 @@
+name: Build and Deploy Jupyter Book
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:  # Allows you to manually trigger the workflow from the GitHub UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repo
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Install dependencies from docs/requirements.txt
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jupyter-book
+          pip install -r docs/requirements.txt
+
+      # Build the Jupyter Book
+      - name: Build Jupyter Book
+        run: jupyter-book build docs/
+
+      # Upload the built site as an artifact for deployment
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/_build/html
+
+  deploy:
+    # Grant the GITHUB_TOKEN write permission to deploy to Pages
+    permissions:
+      pages: write
+      id-token: write
+
+    # Only run after build job succeeds
+    needs: build
+
+    # Use the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
